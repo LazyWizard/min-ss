@@ -1,0 +1,118 @@
+commodity,group,freq
+,,
+metals,basic,20
+heavy_machinery,basic,1
+supplies,basic,10
+fuel,basic,10
+,,
+nothing,goods,70
+domestic_goods,goods,20
+luxury_goods,goods,10
+lobster,goods,2
+food,goods,20
+organs,goods,2
+drugs,goods,10
+hand_weapons,goods,10
+,,
+heavy_machinery,supply,1
+supplies,supply,10
+fuel,supply,5
+,,
+nothing,extended,100
+heavy_machinery,extended,10
+organics,extended,10
+volatiles,extended,10
+rare_metals,extended,10
+,,
+domestic_goods,freighter_cargo,10
+luxury_goods,freighter_cargo,3
+lobster,freighter_cargo,1
+food,freighter_cargo,15
+ore,freighter_cargo,20
+metals,freighter_cargo,10
+hand_weapons,freighter_cargo,5
+heavy_machinery,freighter_cargo,3
+organics,freighter_cargo,10
+volatiles,freighter_cargo,5
+rare_metals,freighter_cargo,3
+rare_ore,freighter_cargo,6
+supplies,freighter_cargo,4
+,,
+fuel,fuel,10
+,,
+nothing,ai_cores3,100
+alpha_core,ai_cores3,1
+beta_core,ai_cores3,2
+gamma_core,ai_cores3,5
+,,
+nothing,ai_cores2,100
+beta_core,ai_cores2,2
+gamma_core,ai_cores2,5
+,,
+nothing,ai_cores1,100
+gamma_core,ai_cores1,5
+,,
+nothing,misc_test,10
+wpn_lightmg,misc_test,10
+mod_heavyarmor,misc_test,10
+#ftr_talon_wing,misc_test,10
+"mod_:{tier:3, tags:[shields]}",misc_test,10
+"wpn_:{tier:3, tags:[]}",misc_test,10
+"ftr_:{tier:3, tags:[]}",misc_test,10
+,,
+nothing,rem_weapons1,355
+"wpn_:{tags:[remnant], weaponSize:SMALL, weaponType:BALLISTIC}",rem_weapons1,100
+"wpn_:{weaponSize:SMALL, weaponType:MISSILE}",rem_weapons1,100
+"wpn_:{weaponSize:SMALL, weaponType:ENERGY}",rem_weapons1,100
+ftr_:{tags:[!remnant]},rem_weapons1,50
+ftr_:{tags:[remnant]},rem_weapons1,5
+,,
+nothing,rem_weapons2,410
+"wpn_:{tags:[remnant], weaponType:BALLISTIC}",rem_weapons2,100
+wpn_:{weaponType:MISSILE},rem_weapons2,100
+wpn_:{weaponType:ENERGY},rem_weapons2,100
+ftr_:{tags:[!remnant]},rem_weapons2,100
+ftr_:{tags:[remnant]},rem_weapons2,10
+,,
+nothing,high_weapons1,250
+"wpn_:{weaponSize:SMALL, weaponType:MISSILE}",high_weapons1,100
+"wpn_:{weaponSize:SMALL, weaponType:ENERGY}",high_weapons1,100
+ftr_:{tags:[high]},high_weapons1,50
+,,
+nothing,high_weapons2,300
+wpn_:{weaponType:MISSILE},high_weapons2,100
+wpn_:{weaponType:ENERGY},high_weapons2,100
+ftr_:{tags:[high]},high_weapons2,100
+,,
+nothing,low_weapons1,250
+"wpn_:{weaponSize:SMALL, weaponType:BALLISTIC}",low_weapons1,100
+"wpn_:{weaponSize:SMALL, weaponType:MISSILE}",low_weapons1,100
+ftr_:{tags:[low]},low_weapons1,50
+,,
+nothing,low_weapons2,300
+wpn_:{weaponType:BALLISTIC},low_weapons2,100
+wpn_:{weaponType:MISSILE},low_weapons2,100
+ftr_:{tags:[low]},low_weapons2,100
+,,
+nothing,weapons1,350
+"wpn_:{weaponSize:SMALL, weaponType:BALLISTIC}",weapons1,100
+"wpn_:{weaponSize:SMALL, weaponType:MISSILE}",weapons1,100
+"wpn_:{weaponSize:SMALL, weaponType:ENERGY}",weapons1,100
+ftr_:{tags:[!remnant]},weapons1,50
+,,
+nothing,weapons2,400
+wpn_:{weaponType:BALLISTIC},weapons2,100
+wpn_:{weaponType:MISSILE},weapons2,100
+wpn_:{weaponType:ENERGY},weapons2,100
+ftr_:{tags:[!remnant]},weapons2,100
+,,
+nothing,any_hullmod_low,100
+mod_:{},any_hullmod_low,10
+,,
+nothing,any_hullmod_medium,100
+mod_:{},any_hullmod_medium,100
+,,
+nothing,any_hullmod_high,100
+mod_:{},any_hullmod_high,300
+,,
+heavy_machinery,machinery,100

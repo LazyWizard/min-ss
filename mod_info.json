@@ -1,0 +1,10 @@
+{
+    "id": "lw_minss",
+    "name": "MinSS",
+    "author": "LazyWizard",
+    "totalConversion": "true",
+    "version": "0.1",
+    "description": "Removes all but the bare minimum of components for Starsector to run. Only useful for testing utility mods on ultra-low powered hardware such as a Raspberry Pi.",
+    "gameVersion": "0.8.1a",
+    "replace": ["data/hulls/ship_data.csv","data/hulls/wing_data.csv","data/world/factions/factions.csv","data/world/factions/default_ship_roles.json","data/world/factions/player.faction","data/missions/mission_list.csv","data/campaign/sim_opponents.csv","data/config/title_screen_variants.csv","data/campaign/procgen/drop_groups.csv"]
+}

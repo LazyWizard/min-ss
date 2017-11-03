@@ -1,0 +1,9 @@
+Done:
+ - Remove all ships except Hound
+ - Remove all wings except Talon
+ - Remove all missions except a simple test one
+
+Todo:
+ - Remove all variants except hound_Standard
+ - Remove all no longer used weapons
+ - Minimize campaign layer (expand later into multiple todo items)
