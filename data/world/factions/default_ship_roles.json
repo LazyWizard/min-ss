@@ -1,0 +1,186 @@
+{
+	"doctrine":{
+		# ship distribution
+		"interceptors":5,
+		"fighters":5,
+		"bombers":5,
+		"small":7,
+		"fast":5,
+		"medium":10,
+		"large":5,
+		"capital":1,
+		
+		# as fraction of combat ships of same size
+		"escortSmallFraction":1,
+		"escortMediumFraction":1,
+		
+		"combatFreighterProbability":0.5,
+		
+		"minPointsForCombatCapital":20,
+		"minPointsForLargeCarrier":20,
+		
+		"smallCarrierProbability":0.25,
+		"mediumCarrierProbability":0.25,
+		"largeCarrierProbability":0.25,
+		
+		# officers
+		"officersPerPoint":0.25,
+		"officerLevelPerPoint":0.2,
+		"officerLevelBase":5,
+		"officerLevelVariance":0.25,
+		
+		"commanderSkillsPerLevel":0.2,
+		"commanderSkillChance":0.5,
+		"commanderSkillLevelPerLevel":0.2,
+		"commanderSkills":{
+			"officer_management":10,
+			"coordinated_maneuvers":10,
+			"fighter_doctrine":10,
+			"electronic_warfare":10,
+		},
+	},
+
+	"interceptor":{
+		"hound_Standard":10,
+		"fallback":{"fighter":1},
+	},
+	"fighter":{
+		"hound_Standard":10,
+		"fallback":{"interceptor":1},
+	},
+	"bomber":{
+		"hound_Standard":10,
+	},
+	
+	"fastAttack":{
+		"hound_Standard":10,
+		"fallback":{"combatSmall":1},
+	},
+
+	"escortSmall":{
+		"hound_Standard":10,
+		"fallback":{"combatSmall":1},
+	},
+	"escortMedium":{
+		"hound_Standard":10,
+		"fallback":{"combatMedium":1},
+	},
+	
+	"combatSmall":{
+		"hound_Standard":10,
+		"fallback":{"escortSmall":1},
+	},
+	"combatMedium":{
+		"hound_Standard":10,
+		"fallback":{"combatSmall":2},
+	},
+	"combatLarge":{
+		"hound_Standard":10,
+		"fallback":{"combatMedium":2},
+	},
+	"combatCapital":{
+		"hound_Standard":10,
+		"fallback":{"combatLarge":2},
+	},
+	
+	
+	# hybrid ships with good combat and cargo capacity
+	"combatFreighterSmall":{
+		"hound_Standard":10,
+		"fallback":{"freighterSmall":1},
+	},
+	"combatFreighterMedium":{
+		"hound_Standard":10,
+		"fallback":{"combatFreighterSmall":2},
+	},
+	"combatFreighterLarge":{
+		"hound_Standard":10,
+		"fallback":{"combatFreighterMedium":2},
+	},
+	
+	"civilianRandom":{
+		"hound_Standard":10,
+		"fallback":{"freighterSmall":1},
+	},
+
+
+	# carriers
+	"carrierSmall":{
+		"hound_Standard":10,
+		"fallback":{"carrierMedium":0.5},
+	},
+	"carrierMedium":{
+		"hound_Standard":10,
+		"fallback":{"carrierSmall":2},
+	},
+	"carrierLarge":{
+		"hound_Standard":10,
+		"fallback":{"carrierMedium":2},
+	},
+
+	# freighters and such
+	"freighterSmall":{
+		"hound_Standard":10,
+		"fallback":{"freighterMedium":0.5},
+	},
+	"freighterMedium":{
+		"hound_Standard":10,
+		"fallback":{"freighterSmall":2},
+	},
+	"freighterLarge":{
+		"hound_Standard":10,
+		"fallback":{"freighterMedium":2},
+	},
+	
+	"tankerSmall":{
+		"hound_Standard":10,
+		"fallback":{"tankerMedium":0.5},
+	},
+	"tankerMedium":{
+		"hound_Standard":10,
+		"fallback":{"tankerSmall":2},
+	},
+	"tankerLarge":{
+		"hound_Standard":10,
+		"fallback":{"tankerMedium":2},
+	},
+	
+	"personnelSmall":{
+		"hound_Standard":10,
+		"fallback":{"personnelMedium":0.5},
+	},
+	"personnelMedium":{
+		"hound_Standard":10,
+		"fallback":{"personnelSmall":2},
+	},
+	"personnelLarge":{
+		"fallback":{"personnelMedium":2},
+	},
+	
+	"linerSmall":{
+		"hound_Standard":10,
+		"fallback":{"linerMedium":0.5},
+	},
+	"linerMedium":{
+		"hound_Standard":10,
+		"fallback":{"linerSmall":2},
+	},
+	"linerLarge":{
+		"hound_Standard":10,
+		"fallback":{"linerMedium":2},
+	},
+	
+	# utility ships
+	"tug":{
+		"hound_Standard":10,
+		"fallback":{"utility":1},
+	},
+	"crig":{
+		"hound_Standard":10,
+		"fallback":{"utility":1},
+	},
+	"utility":{
+		"hound_Standard":10,
+	},
+}
+

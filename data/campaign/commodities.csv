@@ -1,0 +1,41 @@
+name,id,demand class,base price,price variability,utility,decay,origin,tags,stack size,cargo space,icon,sound id,sound id drop,order,economyTier,econUnit,iconWidthMult
+Supplies,supplies,supplies,100,3,1,0.1,,military,1000,1,graphics/icons/cargo/supplies.png,ui_cargo_supplies,ui_cargo_supplies_drop,0.5,2.1,500,0.9
+Fuel,fuel,fuel,25,3,1,0.1,,"heavy_industry_out,
+military",1000,0,graphics/icons/cargo/fuel.png,ui_cargo_fuel,ui_cargo_fuel_drop,0.75,2,500,0.6
+Crew,crew,crew,50,4,1,0.25,,crew,1000,0,graphics/icons/cargo/crew02.png,ui_cargo_crew,ui_cargo_crew_drop,17,3.1,100,0.6
+Marines,marines,marines,500,4,1,0.5,,"marines,
+military",1000,0,graphics/icons/cargo/marine.png,ui_cargo_marines,ui_cargo_marines_drop,14,3.4,100,0.6
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+Food,food,food,20,5,1,0.1,,food,1000,1,graphics/icons/cargo/food.png,ui_cargo_food,ui_cargo_food_drop,13,1,500,1
+Organics,organics,organics,30,4,1,0.1,,light_industry_in,1000,1,graphics/icons/cargo/organics.png,ui_cargo_organics,ui_cargo_organics_drop,12,0,500,1
+Volatiles,volatiles,volatiles,30,4,1,0.1,,light_industry_in,1000,1,graphics/icons/cargo/volatilesB.png,ui_cargo_volatiles,ui_cargo_volatiles_drop,11,0.1,500,1
+Ore,ore,ore,10,3,1,0.1,,"mining_out,
+refining_in",1000,1,graphics/icons/cargo/ore.png,ui_cargo_ore,ui_cargo_ore_drop,10,0.2,500,1
+Transplutonic Ore,rare_ore,rare_ore,75,4,1,0.1,,"mining_out,
+refining_in",1000,1,graphics/icons/cargo/rareore.png,ui_cargo_rareore,ui_cargo_rareore_drop,9,0.3,100,1
+Metals,metals,metals,30,4,1,0.1,,"refining_out, heavy_industry_in",1000,1,graphics/icons/cargo/materials.png,ui_cargo_metals,ui_cargo_metals_drop,8,1.1,500,1
+Transplutonics,rare_metals,rare_metals,200,4,1,0.1,,"refining_out, heavy_industry_in",1000,1,graphics/icons/cargo/raremetals.png,ui_cargo_raremetals,ui_cargo_raremetals_drop,7,1.2,100,1
+Heavy Machinery,heavy_machinery,heavy_machinery,150,5,1,0.1,,heavy_industry_out,1000,1,graphics/icons/cargo/heavymachinery.png,ui_cargo_machinery,ui_cargo_machinery_drop,6,2.2,100,1
+Domestic Goods,domestic_goods,domestic_goods,50,4,1,0.1,,light_industry_out,1000,1,graphics/icons/cargo/goods.png,ui_cargo_goods,ui_cargo_goods_drop,5,2.3,200,1
+,,,,,,,,,,,,,,,,,
+Harvested Organs,organs,organs,300,5,1,0.1,,medical,1000,1,graphics/icons/cargo/organs.png,ui_cargo_organs,ui_cargo_organs_drop,4,2.4,100,0.7
+Recreational Drugs,drugs,drugs,200,5,1,0.1,,light_industry_out,1000,1,graphics/icons/cargo/recdrugs.png,ui_cargo_drugs,ui_cargo_drugs_drop,3,2.5,100,0.75
+Hand Weapons,hand_weapons,hand_weapons,150,4,1,0.1,,"heavy_industry_out,
+military",1000,1,graphics/icons/cargo/handweapons.png,ui_cargo_handweapons,ui_cargo_handweapons_drop,2,2.6,500,0.75
+Luxury Goods,luxury_goods,luxury_goods,100,6,1,0.1,,"light_industry_out,luxury",1000,1,graphics/icons/cargo/luxurygoods.png,ui_cargo_luxury,ui_cargo_luxury_drop,1,2.7,100,1
+Volturnian Lobster,lobster,luxury_goods,,,1,0.1,volturn,"exotic,luxury",1000,1,graphics/icons/cargo/lobster.png,ui_cargo_luxury,ui_cargo_luxury_drop,1,2.8,100,1
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+AI Cores,ai_cores,ai_cores,1000,0,1,,,nonecon,1000,1,graphics/icons/cargo/ai_core_gamma.png,ui_chip_pickup,ui_fighter_drop,30,,,1
+Alpha Core,alpha_core,ai_cores,,,150,,,nonecon,1000,1,graphics/icons/cargo/ai_core_alpha.png,ui_chip_pickup,ui_fighter_drop,40,,,1
+Beta Core,beta_core,ai_cores,,,30,,,nonecon,1000,1,graphics/icons/cargo/ai_core_beta.png,ui_chip_pickup,ui_fighter_drop,39,,,1
+Gamma Core,gamma_core,ai_cores,,,10,,,nonecon,1000,1,graphics/icons/cargo/ai_core_gamma.png,ui_chip_pickup,ui_fighter_drop,38,,,1
+,,,,,,,,,,,,,,,,,
+Survey Data,survey_data,survey_data,1000,0,1,,,nonecon,1000,1,graphics/icons/cargo/survey_data.png,ui_chip_pickup,ui_modspec_drop,50,,,1
+Class I Survey Data,survey_data_1,survey_data,,,1,,,nonecon,1000,1,graphics/icons/cargo/survey_data1.png,ui_chip_pickup,ui_modspec_drop,45,,,1
+Class II Survey Data,survey_data_2,survey_data,,,5,,,nonecon,1000,1,graphics/icons/cargo/survey_data2.png,ui_chip_pickup,ui_modspec_drop,46,,,1
+Class III Survey Data,survey_data_3,survey_data,,,10,,,nonecon,1000,1,graphics/icons/cargo/survey_data3.png,ui_chip_pickup,ui_modspec_drop,47,,,1
+Class IV Survey Data,survey_data_4,survey_data,,,30,,,nonecon,1000,1,graphics/icons/cargo/survey_data4.png,ui_chip_pickup,ui_modspec_drop,48,,,1
+Class V Survey Data,survey_data_5,survey_data,,,100,,,nonecon,1000,1,graphics/icons/cargo/survey_data5.png,ui_chip_pickup,ui_modspec_drop,49,,,1
