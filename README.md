@@ -1,0 +1,1 @@
+Removes all but the bare minimum of components needed for Starsector to run. Only useful for testing utility mods on ultra-low powered hardware such as a Raspberry Pi.
